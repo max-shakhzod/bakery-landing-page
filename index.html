@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axiom Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="logo">
+      <img src="/public/assets/images/logo.jpeg" alt="Croissant" />
+      <a href="#">Store</a>
+      <a href="#">About</a>
+      <a href="#">Shipping</a>
+      <a href="#">Recipes</a>
+      <a href="#">Blog</a>
+      <a href="#" class="cart-icon">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </a>
+    </nav>
+
+    <!-- Top Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="with-lines">bonjour</p>
+        <h1>
+          Serving Baked
+          <br />
+          Goods <span>Every Day</span>
+        </h1>
+        <p class="content-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <button>
+          Shop Now
+          <i class="fa-solid fa fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="hero-section">
+        <div class="pastries">
+          <div>
+            <img
+              src="/public/assets/images/almond-croissant.png"
+              alt="Almond-Croissant"
+              class="almond-croissant"
+            />
+          </div>
+          <div>
+            <img
+              src="/public/assets/images/croissant.png"
+              alt="Croissant"
+              class="croissant"
+            />
+          </div>
+          <div>
+            <img
+              src="/public/assets/images/danish.png"
+              alt="Pastry"
+              class="danish"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/public/assets/images/almond.png"
+              alt="Almond Pastry"
+              class="almond"
+            />
+          </div>
+          <div>
+            <img
+              src="/public/assets/images/blueberry.png"
+              alt="Blueberry Pastry"
+              class="blueberry"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Middle Section -->
+
+    <section class="intro">
+      <p class="patisserie-text">patisserie</p>
+      <h1>Lorem Ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <p>
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p class="follow-us">
+        Follow Us: <span class="hr-line"></span>
+        <a href="#"><i class="fa-brands fa fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa fa-instagram"></i></a>
+      </p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+      <div class="product">
+        <div class="product-image">
+          <img
+            src="/public/assets/images/pain-au-cranberry.png"
+            alt="Pain-au-cranberry"
+          />
+        </div>
+        <div class="product-details">
+          <h4>Pain au Cranberry</h4>
+          <p>
+            A delightful spiral pastry filled with light French vanilla cream
+            and studded with seasonal berries.
+          </p>
+          <div class="product-options">
+            <div class="pack-select">
+              <select>
+                <option value="6">Pack of 6</option>
+                <option value="12">Pack of 12</option>
+                <option value="24">Pack of 24</option>
+              </select>
+            </div>
+            <div class="quantity-control">
+              <button class="decrement">-</button>
+              <input type="text" value="1" readonly />
+              <button class="increment">+</button>
+            </div>
+            <div class="price">$128</div>
+          </div>
+          <div class="button-container">
+            <button class="add-button">
+              <i class="fa-solid fa fa-plus"></i>
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img
+            src="/public/assets/images/pain-au-cranberry.png"
+            alt="Pain-au-cranberry"
+          />
+        </div>
+        <div class="product-details">
+          <h4>Pain au Cranberry</h4>
+          <p>
+            A delightful spiral pastry filled with light French vanilla cream
+            and studded with seasonal berries.
+          </p>
+          <div class="product-options">
+            <div class="pack-select">
+              <select>
+                <option value="6">Pack of 6</option>
+                <option value="12">Pack of 12</option>
+                <option value="24">Pack of 24</option>
+              </select>
+            </div>
+            <div class="quantity-control">
+              <button class="decrement">-</button>
+              <input type="text" value="1" readonly />
+              <button class="increment">+</button>
+            </div>
+            <div class="price">$128</div>
+          </div>
+          <div class="button-container">
+            <button class="add-button">
+              <i class="fa-solid fa fa-plus"></i>
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="/public/assets/images/pear-danish.png" alt="Pear-danish" />
+        </div>
+        <div class="product-details">
+          <h4>Roasted Pear Danish</h4>
+          <p>
+            A Danish pastry featuring a roasted pear center, complemented by
+            light French vanilla cream and seasonal berries.
+          </p>
+          <div class="product-options">
+            <div class="pack-select">
+              <select>
+                <option value="6">Pack of 6</option>
+                <option value="12">Pack of 12</option>
+                <option value="24">Pack of 24</option>
+              </select>
+            </div>
+            <div class="quantity-control">
+              <button class="decrement">-</button>
+              <input type="text" value="1" readonly />
+              <button class="increment">+</button>
+            </div>
+            <div class="price">$128</div>
+          </div>
+          <div class="button-container">
+            <button class="add-button">
+              <i class="fa-solid fa fa-plus"></i>
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img
+            src="/public/assets/images/onion-anchovy.png"
+            alt="Onion-anchovy"
+          />
+        </div>
+        <div class="product-details">
+          <h4>Onion Anchovy</h4>
+          <p>
+            A savory pastry combining the flavors of onion and anchovy, enhanced
+            with light French vanilla cream and seasonal berries.
+          </p>
+          <div class="product-options">
+            <div class="pack-select">
+              <select>
+                <option value="6">Pack of 6</option>
+                <option value="12">Pack of 12</option>
+                <option value="24">Pack of 24</option>
+              </select>
+            </div>
+            <div class="quantity-control">
+              <button class="decrement">-</button>
+              <input type="text" value="1" readonly />
+              <button class="increment">+</button>
+            </div>
+            <div class="price">$128</div>
+          </div>
+          <div class="button-container">
+            <button class="add-button">
+              <i class="fa-solid fa fa-plus"></i>
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="/public/assets/images/pear-danish.png" alt="Pear-danish" />
+        </div>
+        <div class="product-details">
+          <h4>Roasted Pear Danish</h4>
+          <p>
+            A Danish pastry featuring a roasted pear center, complemented by
+            light French vanilla cream and seasonal berries.
+          </p>
+          <div class="product-options">
+            <div class="pack-select">
+              <select>
+                <option value="6">Pack of 6</option>
+                <option value="12">Pack of 12</option>
+                <option value="24">Pack of 24</option>
+              </select>
+            </div>
+            <div class="quantity-control">
+              <button class="decrement">-</button>
+              <input type="text" value="1" readonly />
+              <button class="increment">+</button>
+            </div>
+            <div class="price">$128</div>
+          </div>
+          <div class="button-container">
+            <button class="add-button">
+              <i class="fa-solid fa fa-plus"></i>
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
